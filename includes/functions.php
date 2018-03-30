@@ -85,7 +85,7 @@ function getNav(PDO $pdo): array
 {
     $sql = "SELECT 
               `slug`, 
-              `nav-title`, 
+              `nav-title`
             FROM 
               `page`
             ;";
